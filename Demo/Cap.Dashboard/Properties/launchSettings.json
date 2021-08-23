@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "cap",
+      "applicationUrl": "http://localhost:1105"
+    },
+    "web-api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "cap/publish2?name=xxx.services.publish2&content=aa",
+      "applicationUrl": "http://localhost:1105"
+    }
+  }
+}

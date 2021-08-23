@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "console": {
+      "commandName": "Project"
+    },
+    "web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "cap",
+      "applicationUrl": "http://127.0.0.1:1104"
+    },
+    "web-pubMsg": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "cap/publish?jobGroup=resPool01&jobName=解压文件",
+      "remoteDebugEnabled": false,
+      "remoteDebugMachine": "",
+      "applicationUrl": "http://127.0.0.1:1104"
+    }
+  }
+}

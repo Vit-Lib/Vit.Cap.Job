@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<pack>nuget</pack>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Version>2.2.3</Version>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Authors>Lith</Authors>
+		<Description>基于RabbitMq、Mysql和Cap实现的分布式事务方案</Description>
+		<PackageProjectUrl>https://github.com/serset/Vit.Cap.Job</PackageProjectUrl>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>bin\Debug\netstandard2.1\Vit.Cap.Job.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+
+		<!-- Vit -->
+		<PackageReference Include="Vit.WebHost" Version="2.1.10" />
+		<PackageReference Include="Vit.Orm.EntityFramework" Version="2.2.6" />
+
+		<!-- CAP -->
+		<PackageReference Include="DotNetCore.CAP" Version="5.0.2" />
+		<PackageReference Include="DotNetCore.CAP.MySql" Version="5.0.2" />
+		<PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="5.0.2" />
+		<!--<PackageReference Include="DotNetCore.CAP.Dashboard" Version="5.0.2" />-->
+ 
+	</ItemGroup>
+
+
+
+</Project>
